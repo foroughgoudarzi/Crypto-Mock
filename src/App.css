@@ -15,6 +15,8 @@
 }
 .p-3{
   padding:2rem !important;
+  border-color: black !important;
+  border-width: 3px !important;
 }
 
 .m-3{
@@ -34,3 +36,4 @@
   background: deepskyblue;
   border-radius: 10px
 } */
+
