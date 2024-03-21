@@ -7,7 +7,7 @@ function Price(props) {
       headers: new Headers({
         "content-type": "application/json",
         authorization:
-          'Apikey "7a8bd0d679fc1ef6e8884f50d98b9936c0323c5dea683ebb9952a67e4adddeef"',
+          'Apikey "decb05752b2fdc589a80b18337ab566dfa63e3baf5639ebc35ad882463279e25"',
       }),
     }).then(function (response) {
       return response.json();

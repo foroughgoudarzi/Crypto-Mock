@@ -1,7 +1,9 @@
-import React from 'react';
-import { Typography } from '@mui/material';
-import Price from "../components/Price"
-import Logo from "../components/Logo"
+import React from "react";
+import { Typography } from "@mui/material";
+import Price from "../components/Price";
+import Logo from "../components/Logo";
+import crypto from "../data/crypto.json";
+import Card from "../components/Card/index.jsx";
 // import Cryptodisplay from "./cryptodisplaying";
 // // import cryptoinfo from "./cryptoinfoing.json";
 // import Wrapper from "./cryptodisplaying";
@@ -31,5 +33,4 @@ const Home = () => {
   // </Wrapper>
   );
 };
-
 export default Home;

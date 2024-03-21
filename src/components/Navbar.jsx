@@ -27,7 +27,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/Home";
 import Watchlist from "../pages/Watchlist";
 import Portfolio from "../pages/Portfolio";
-import Wallet from "../pages/Wallet";
+import WalletPage from "../pages/WalletPage";
 
 import logo from "../assets/logo.png";
 import "../index.css";
@@ -54,10 +54,10 @@ const pages = [
     component: Portfolio,
   },
   {
-    title: "Wallet",
-    href: "/Wallet",
+    title: "WalletPage",
+    href: "/WalletPage",
     icon: <ReceiptOutlinedIcon />,
-    component: Wallet,
+    component: WalletPage,
   },
 ];
 

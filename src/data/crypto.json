@@ -60,11 +60,6 @@
     "abbreviation": "shib"
   },
   {
-    "id": 13,
-    "name": "stellar",
-    "abbreviation": "xlm"
-  },
-  {
     "id": 14,
     "name": "uniswap",
     "abbreviation": "uni"
@@ -75,82 +70,8 @@
     "abbreviation": "fil"
   },
   {
-    "id": 16,
-    "name": "toncoin",
-    "abbreviation": "ton"
-  },
-  {
-    "id": 17,
-    "name": "chainlink",
-    "abbreviation": "link"
-  },
-  {
-    "id": 18,
-    "name": "cronos",
-    "abbreviation": "cro"
-  },
-  {
-    "id": 19,
-    "name": "ravencoin",
-    "abbreviation": "rvn"
-  },
-  {
-    "id": 20,
-    "name": "golem-network-tokens",
-    "abbreviation": "glm"
-  },
-  {
-    "id": 21,
-    "name": "convex-finance",
-    "abbreviation": "cvx"
-  },    {
-    "id": 22,
-    "name": "aelf",
-    "abbreviation": "elf"
-  },
-  {
-    "id": 23,
-    "name": "hive-blockchain",
-    "abbreviation": "hive"
-  },
-  {
-    "id": 24,
-    "name": "liquity",
-    "abbreviation": "lqty"
-  },
-  {
-    "id": 25,
-    "name": "bittorrent",
-    "abbreviation": "bttold"
-  },
-  {
-    "id": 26,
-    "name": "hex",
-    "abbreviation": "hex"
-  },
-  {
-    "id": 27,
-    "name": "tribe",
-    "abbreviation": "tribe"
-  },
-  {
-    "id": 28,
-    "name": "beefy-finance",
-    "abbreviation": "bifi"
-  },
-  {
-    "id": 29,
-    "name": "bakerytoken",
-    "abbreviation": "bake"
-  },
-  {
     "id": 0,
     "name": "fusion",
     "abbreviation": "fsn"
-  },
-  {
-    "id": 30,
-    "name": "proton",
-    "abbreviation": "xpr"
   }
 ]

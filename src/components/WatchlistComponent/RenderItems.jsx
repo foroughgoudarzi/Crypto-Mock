@@ -10,7 +10,7 @@ function RenderItems() {
   ////moved from crypto
    // const list= JSON.parse(localStorage.getItem("cryptoList"));
    const [list, setList] = useState(initialCryptoList);
-   console.log(list);
+
   
    const handleRemove= (event)=>{
      
@@ -18,8 +18,6 @@ function RenderItems() {
      // setItem(event.target.name);
      // list[removeItem] = false;
      console.log(list)
-     // localStorage.setItem("cryptoList", JSON.stringify(list));
-        
    }
 
   const selected = Object.keys(list).filter((element) => list[element]);
@@ -28,21 +26,11 @@ function RenderItems() {
   crypto.find((e) => e.abbreviation == element).name;
   const findId = (element) => crypto.find((e) => e.abbreviation == element).id;
 
-//   useEffect(() => {
-//     const onStorage = () => {
-//       const myList = localStorage.getItem("cryptoList") != null && localStorage.getItem("cryptoList") != "undefined"
-//         ? JSON.parse(localStorage.getItem("cryptoList"))
-//         : {};
+  useEffect(() => {
 
-//         setList({...myList})
-//     };
+    localStorage.setItem("cryptoList", JSON.stringify(list));
+}, [list]);
 
-//     window.addEventListener('storage', onStorage);
-
-//     return () => {
-//         window.removeEventListener('storage', onStorage);
-//     };
-// }, [list]);
 
   
 
