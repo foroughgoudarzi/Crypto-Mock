@@ -1,4 +1,4 @@
-[
+const cryptoinfo = [
     {
       "id": 1,
       "name": "Bitcoin",
@@ -154,4 +154,4 @@
       "abbreviation": "xpr"
     }
   ]
-  
+  export default cryptoinfo
